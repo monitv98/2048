@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset = 'UTF-8'>
+    <title>2048</title>
+    <meta name="author" content="M&oacute;nica Ilenia Tard&oacute;n Vera">
+    <link id = 'style' rel = 'stylesheet' href = 'https://dl.dropbox.com/s/m1vyfaf2xxvsklv/light.css?raw=1'>
+    <script src="2048.js"></script>
+</head>
+
+<body>
+
+  
+    <div id = 'game' style="align-items: center;">
+
+       
+        <div id = 'title'><strong>2048</strong></div>
+
+      
+        <div id = 'score' class = 'score-block'>Score<br><div id = 'score-output'>0</div></div>
+        <div id = 'best-score' class = 'score-block'>Best<br><div id = 'best-score-output'>0</div></div>
+
+        
+        <button id = 'theme-change-button' class = 'button' onclick = 'changeTheme()'><strong><span id = 'selected-theme'>Light</span></strong></button>
+
+       
+        <button id = 'new-game' class  = 'button' onclick = 'newGame()'><strong>New Game</strong></button>
+
+        
+        <table id = 'game-grid'>
+            <tr><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td></tr>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
